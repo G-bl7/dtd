@@ -1,0 +1,33 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+tmshnobody:x:32765:32765:tmshnobody:/:/sbin/nologin
+admin:x:0:500:Admin User:/home/admin:/bin/false
+vcsa:x:69:69:virtual console memory owner:/dev:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-bus-proxy:x:974:998:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/sbin/nologin
+polkitd:x:27:27:User for polkitd:/:/sbin/nologin
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+postgres:x:26:26:PostgreSQL Server:/var/local/pgsql/data:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/sbin/nologin
+hsqldb:x:96:96::/var/lib/hsqldb:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+f5_remoteuser:x:499:499:f5 remote user account:/home/f5_remoteuser:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/:/sbin/nologin
+sdm:x:191:996:sdmuser:/var/sdm:/bin/false
+named:x:25:25:Named:/var/named:/bin/false
+apache:x:48:48:Apache:/usr/local/www:/sbin/nologin
+syscheck:x:199:10::/:/sbin/nologin
+mysql:x:98:98:MySQL server:/var/lib/mysql:/sbin/nologin
+restnoded:x:198:198::/:/sbin/nologin
+mysqlsys:x:0:0:root:/root:/bin/bash
